@@ -1,0 +1,25 @@
+.navlink {
+  margin-inline-start: 5px;
+  margin-block: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 45px;
+  font-weight: 600;
+}
+
+.navlink:hover {
+  background-color: #0077b6;
+  color: whitesmoke;
+}
+
+.active-navlink {
+  background-color: #0096c7;
+  color: white;
+}
